@@ -1,1 +1,16 @@
-# MyTestRepo
+# math-utils-93742
+
+A tiny JavaScript library with basic math helper functions.
+
+## ✏️ Features
+- `add(a, b)`: Quickly add two numbers.
+- `randomInt(min, max)`: Get a random integer between min and max (inclusive).
+
+## 📦 Installation
+Clone this repo or copy the functions into your project.
+
+```js
+import { add, randomInt } from "./index.js";
+
+console.log(add(2, 3));        // 5
+console.log(randomInt(1, 10)); // e.g., 7
